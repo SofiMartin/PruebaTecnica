@@ -146,6 +146,14 @@ Ejemplo de respuesta de error:
 
 Ambas APIs se ejecutan en una red compartida llamada `api_network`, lo que permite la comunicación entre contenedores usando los nombres de servicio como hostnames.
 
+### Contenedores en Ejecución
+
+Una vez levantados los contenedores, deberías ver algo similar a esto en Docker Desktop:
+
+![Docker Containers](images/DockerDesktop.png)
+
+Los contenedores `pruebatecnica-api_a` y `pruebatecnica-api_b` estarán activos y ejecutándose en los puertos 5000 y 5001 respectivamente.
+
 ## Pruebas con cURL
 
 ### Probar API B directamente:
